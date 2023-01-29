@@ -73,6 +73,7 @@ Button.propTypes = {
   onclick: propTypes.func,
   target: propTypes.string,
   className: propTypes.string,
+  isPrimary: propTypes.bool,
   isDisabled: propTypes.bool,
   isExtrnal: propTypes.bool,
   isLoading: propTypes.bool,
